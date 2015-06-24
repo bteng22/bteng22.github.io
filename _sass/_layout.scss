@@ -161,11 +161,26 @@
     }
 }
 
-
+/* Home ----------*/
+#banner {
+  height: 593px;
+  background-image: url("../images/temp_banner.jpg");
+  background-position: center-top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // TODO implement image with no-repeat and same color bg to prevent stretch
+  background-size: 100% auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /**
  * Page content
  */
+
 .page-content {
     padding: $spacing-unit 0;
 }
