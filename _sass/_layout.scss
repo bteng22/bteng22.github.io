@@ -3,7 +3,6 @@
  */
 .site-header {
     padding: 1.5em;
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -99,6 +98,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    text-align: center;
+    background-color: papayawhip;
 }
 
 .footer-heading {
@@ -164,11 +165,10 @@
 /* Home ----------*/
 #banner {
   height: 593px;
-  background-image: url("../images/temp_banner.jpg");
+  background-image: url("../images/banner.png");
   background-position: center-top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // TODO implement image with no-repeat and same color bg to prevent stretch
   background-size: 100% auto;
   background-color: #fff;
   display: flex;

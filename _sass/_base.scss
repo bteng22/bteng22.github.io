@@ -188,16 +188,51 @@ pre {
 /**
  * Icons
  */
+
 .icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+}
 
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
+.icon--facebook {
+  background-image: url("../images/facebook_icon.png");
+}
 
-        path {
-            fill: $grey-color;
-        }
-    }
+.icon--github {
+  background-image: url("../images/github_icon.png");
+}
+
+.icon--twitter {
+  background-image: url("../images/twitter_icon.png");
+}
+
+.icon--stackoverflow {
+  background-image: url("../images/stackoverflow_icon.png");
+}
+
+/* Hover.css - Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
