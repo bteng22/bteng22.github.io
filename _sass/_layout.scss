@@ -73,12 +73,7 @@
             }
         }
 
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
+        &:hover {
             display: block;
             padding-bottom: 5px;
         }
@@ -88,9 +83,19 @@
             padding: 5px 10px;
         }
     }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    a {
+      padding: 1.25rem 0.5rem;
+      display: flex;
+      align-items: flex-end;
+    }
 }
-
-
 
 /**
  * Site footer

@@ -1,7 +1,10 @@
-<div class="trigger">
-  {% for page in site.pages %}
+<nav class="site-nav">
+  <ul id="nav-list">
+  {% assign sorted_pages = site.pages | sort:"name" %}
+  {% for page in sorted_pages %}
     {% if page.title %}
-    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
-</div>
+  </ul>
+</nav>
