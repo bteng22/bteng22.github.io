@@ -11,3 +11,4 @@ username: bteng22
 
 # Build settings
 markdown: kramdown
+permalink: none

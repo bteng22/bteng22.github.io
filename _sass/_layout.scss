@@ -11,10 +11,10 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 2em;
     line-height: 56px;
     letter-spacing: -1px;
-    margin-bottom: 0;
+    margin-top: 5px;
     float: left;
 
     &,
@@ -36,6 +36,7 @@
     }
 
     .page-link {
+        font-size: 1.5em;
         color: $text-color;
         line-height: $base-line-height;
 
@@ -97,10 +98,29 @@
     }
 }
 
+.hvr-grow {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 /**
  * Site footer
  */
 .site-footer {
+    background-color: #F9F8E9;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     text-align: center;
@@ -179,10 +199,20 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: #382B1D;
+  .title {
+    font-size: 4.5em;
+  }
+  .tagline {
+    font-size: 2em;
+  }
 }
 
-div section {
+.home-content {
+  text-align: center;
+  section {
     border-bottom: 1px solid #e8e8e8;
+  }
 }
 
 /**
@@ -190,30 +220,30 @@ div section {
  */
 
 .page-content {
-    padding: $spacing-unit 0;
+  padding: $spacing-unit 0;
 }
 
-.page-heading {
-    font-size: 20px;
+.section-heading {
+  font-size: 2em;
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+  margin-left: 0;
+  list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+  > li {
+    margin-bottom: $spacing-unit;
+  }
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+  font-size: $small-font-size;
+  color: $grey-color;
 }
 
 .post-link {
-    display: block;
-    font-size: 24px;
+  display: block;
+  font-size: 24px;
 }
 
 
@@ -222,43 +252,43 @@ div section {
  * Posts
  */
 .post-header {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }
 
 .post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
+  font-size: 42px;
+  letter-spacing: -1px;
+  line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+  @include media-query($on-laptop) {
+      font-size: 36px;
+  }
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
 
-    h2 {
-        font-size: 32px;
+  h2 {
+    font-size: 32px;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
+    @include media-query($on-laptop) {
+      font-size: 28px;
     }
+  }
 
-    h3 {
-        font-size: 26px;
+  h3 {
+    font-size: 26px;
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+    @include media-query($on-laptop) {
+      font-size: 22px;
     }
+  }
 
-    h4 {
-        font-size: 20px;
+  h4 {
+    font-size: 20px;
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
+    @include media-query($on-laptop) {
+        font-size: 18px;
     }
+  }
 }
