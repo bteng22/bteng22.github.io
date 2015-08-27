@@ -1,10 +1,9 @@
 <nav>
   <ul id="nav-list">
-  {% assign sorted_pages = site.pages | sort:"name" %}
-  {% for page in sorted_pages %}
-    {% if page.title %}
-    <li><a class="hvr-grow" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-    {% endif %}
-  {% endfor %}
+    <li><a class="hvr-grow" href="/#welcome">Hello</a></li>
+    <li><a class="hvr-grow" href="/#hacking-on">Work</a></li>
+    <li><a class="hvr-grow" href="/#weekly-discovery">Findings</a></li>
+    <li><a class="hvr-grow" href="/#brain-picking">Blog</a></li>
+    <li><a class="hvr-grow" href="/#twittersphere">Twitter</a></li>
   </ul>
 </nav>
