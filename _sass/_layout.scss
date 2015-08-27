@@ -2,101 +2,42 @@
  * Site header
  */
 .site-header {
-    padding: 1.5em;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  align-items: center;
+  background-color: #FFFBF5;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
 }
 
 .site-title {
-    font-size: 2em;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-top: 5px;
-    float: left;
+  font-size: 2em;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+  &,
+  &:visited {
+      color: $grey-color-dark;
+  }
 }
 
 .site-logo {
-    height: 56px;
+  height: 56px;
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        font-size: 1.5em;
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        &:hover {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
-
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-    a {
-      padding: 1.25rem 0.5rem;
-      display: flex;
-      align-items: flex-end;
-    }
+nav {
+  font-size: 1.5em;
+  ul {
+    display: flex;
+  }
+  li {
+    margin: 0px 4px;
+  }
 }
+
+/** HOVER.CSS **/
 
 .hvr-grow {
   -webkit-transform: translateZ(0);
@@ -187,13 +128,10 @@
 }
 
 /* Home ----------*/
-#banner {
-  height: 593px;
-  background-image: url("../images/banner.png");
-  background-position: center-top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% auto;
+#hero {
+  height: 400px;
+  background: url(../images/banner.png) no-repeat top left;
+  background-size: cover;
   background-color: $background-color;
   display: flex;
   justify-content: center;
