@@ -69,7 +69,6 @@ nav {
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
@@ -129,15 +128,15 @@ nav {
 
 /* Home ----------*/
 #hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 400px;
   background: url(../images/banner.png) no-repeat top left;
   background-size: cover;
   border-radius: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  color: #382B1D;
 }
 
 .title {
