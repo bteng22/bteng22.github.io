@@ -50,10 +50,6 @@ img {
 /**
  * Figures
  */
-figure > img {
-    display: block;
-}
-
 figcaption {
     font-size: $small-font-size;
 }
@@ -207,28 +203,4 @@ pre {
 
 .icon--stackoverflow {
   background-image: url("../images/stackoverflow_icon.png");
-}
-
-/* Hover.css - Pulse */
-@-webkit-keyframes hvr-pulse {
-  25% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-  75% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-  }
-}
-
-.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
-  -webkit-animation-name: hvr-pulse;
-  animation-name: hvr-pulse;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
 }
