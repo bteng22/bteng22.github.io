@@ -3,7 +3,7 @@
  */
 .site-header {
   align-items: center;
-  background-color: #FFFBF5;
+  background-color: #FFFFEF;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -89,7 +89,7 @@ nav {
   display: flex;
   flex-direction: column;
   border-radius: 25px;
-  background-color: #F9F8E9;
+  background-color: #FFFFEF;
   padding: $spacing-unit 0;
   text-align: center;
 }
@@ -108,9 +108,11 @@ nav {
 }
 
 .title {
+  color: $big-text-color;
   font-size: 4.5em;
 }
 .tagline {
+  color: $big-text-color;
   font-size: 2em;
 }
 
@@ -120,7 +122,7 @@ nav {
   text-align: center;
   section {
     &:not(:last-child) {
-      border-bottom: 1px solid #e8e8e8;
+      border-bottom: 1px solid #000000;
     }
   }
 }
@@ -128,6 +130,20 @@ nav {
 /**
  * Page content
  */
+
+ code {
+   display: inline-block;
+   max-width: 350px;
+   color: #63F906;
+   background-color: #4D4D4D;
+   border-radius: 5px;
+   font-family:Courier New,monospace,sans-serif;
+   font-size: 14px;
+   margin-bottom: 10px;
+   span {
+     display: block;
+   }
+ }
 
 .page-content {
   padding: $spacing-unit 0;
