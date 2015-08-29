@@ -121,6 +121,7 @@ nav {
   flex-direction: column;
   text-align: center;
   section {
+    padding: 20px;
     &:not(:last-child) {
       border-bottom: 1px solid #000000;
     }
@@ -142,6 +143,35 @@ nav {
    margin: 10px 0px;
    span {
      display: block;
+   }
+ }
+
+ .current-work {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   article {
+     padding: 15px;
+   }
+   img {
+     padding: 5px;
+     height: 190px;
+     width: 250px;
+     border-radius: 0 25%;
+     border: 2px solid #0090B2;
+   }
+   p {
+     margin: auto;
+     max-width: 260px;
+   }
+   h3 {
+     font-size: 1.5em;
+   }
+ }
+
+ @media(max-width: 550px) {
+   .current-work {
+     flex-direction: column;
    }
  }
 
