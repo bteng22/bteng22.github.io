@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Humble Beginnings"
-date:   2015-07-08 23:00:00
+date:   2015-08-08 23:00:00
 categories: misc
 ---
 "The journey of a thousand miles must begin with a single step", so the ancient [Chinese proverb][proverb] echoes. The wisdom of Laozi is uncannily synonymous with one of my favorite [childhood commercials][commercial], "How many licks does it take to get to the center of a tootsie pop?". Nonsense most would say, but I would retort, "It begins with a single lick…". And thus I make my ‘lick' today, not on said tootsie pop, but on the digital world. Of course to most, my post just looks like another pile of words on the web, but to me it's definitely a monumental step--a step towards vulnerability and courage.
