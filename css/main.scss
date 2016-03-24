@@ -27,7 +27,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 // Width of the content area
 $content-width:    1160px;
 
-$on-palm:          600px;
+$on-palm:          580px;
 $on-laptop:        800px;
 
 
@@ -39,6 +39,7 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
