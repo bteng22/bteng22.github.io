@@ -5,16 +5,11 @@
 
   <body>
 
-    {% include header.html %}
-
-    {% if page.title == 'Home' %}
-      {% include banner.html %}
-    {% endif %}
-
     {{ content }}
 
     {% include footer.html %}
 
+    <script src="../main.js"></script>
   </body>
 
 </html>
