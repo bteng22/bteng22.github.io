@@ -65,7 +65,7 @@ CONTENT
   text-transform: uppercase;
 }
 
-// YARRRRRRRRR
+/* CSS Animations on page load */
 
 .fullname:before {
   content: "";
@@ -79,7 +79,7 @@ CONTENT
   transition: .60s all ease;
 }
 
-.yarr.fullname:before {
+.overline.fullname:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

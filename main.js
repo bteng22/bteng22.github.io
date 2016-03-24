@@ -1,3 +1,3 @@
 window.onload = function(){
-  document.getElementById('fullname').setAttribute("class", "yarr fullname");
+  document.getElementById('fullname').setAttribute("class", "overline fullname");
 }
