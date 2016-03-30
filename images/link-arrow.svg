@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="399px" height="399px" viewBox="0 0 399 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>arrows</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-13" transform="translate(-596.000000, -637.000000)" fill="#ADADAE">
+            <g id="arrows" transform="translate(596.000000, 637.000000)">
+                <g id="Capa_1">
+                    <path d="M398.678261,264.452174 C398.678261,275.217391 389.843478,283.773913 379.078261,283.773913 C368.313043,283.773913 359.756522,275.217391 359.756522,264.452174 L359.756522,66.5217391 L33.2,393.095652 C25.7391304,400.556522 13.3217391,400.556522 5.6,393.095652 C-1.86086957,385.373913 -1.86086957,373.217391 5.6,365.495652 L332.156522,39.2 L134.504348,39.2 C123.73913,39.2 114.904348,30.3652174 114.904348,19.6 C114.904348,8.83478261 123.73913,0 134.504348,0 L379.078261,0 C389.843478,0 398.678261,8.83478261 398.678261,19.6 L398.678261,264.452174 L398.678261,264.452174 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
